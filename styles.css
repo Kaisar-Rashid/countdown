@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.8); 
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+input[type="datetime-local"] {
+  width: 92%;
+  padding: 10px;
+  margin: 20px 0px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#start-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 0px;
+}
+#stop-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff0000;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 0px;
+}
+#Reset-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28ed00;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 0px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time {
+  text-align: center;
+}
+
+.number {
+  font-size: 2em;
+  color: #333;
+}
+
+.label {
+  color: #777;
+}
